@@ -21,7 +21,7 @@ $string = json_decode(file_get_contents('php://input'));
 if($text == 'Your name')
     $text_reply = 'jJoe';
 
-    $token = '';
+    $token = '135239386:AAEi5ZWCc8Wg6weOP2Lo1Aok_O6JgJCs6uw';
     $text_reply = 'Got you Buddy.';
 
     $url = 'https://api.telegram.org/bot'.135239386:AAEi5ZWCc8Wg6weOP2Lo1Aok_O6JgJCs6uw.'/sendMessage?chat_id='.$user_id;
